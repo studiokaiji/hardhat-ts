@@ -2,7 +2,6 @@ import { HardhatUserConfig, task } from "hardhat/config";
 import "@nomiclabs/hardhat-ethers";
 import "hardhat-deploy-ethers";
 import "hardhat-deploy";
-import "hardhat-typechain";
 import "@typechain/ethers-v5";
 import "@nomicfoundation/hardhat-toolbox";
 
