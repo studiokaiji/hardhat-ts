@@ -23,5 +23,10 @@
     "solidity-coverage": "^0.8.2",
     "typechain": "^8.1.1",
     "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "node": "npx hardhat node --watch",
+    "compile": "npx hardhat compile"
   }
 }
